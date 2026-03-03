@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -123,13 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h" />
-    <ClInclude Include="Resource.h" />
+    <ClInclude Include="MathHelper.h" />
+    <ClInclude Include="RubixCubeTimer.h" />
     <ClInclude Include="Rubix%27s Cube.h" />
-    <ClInclude Include="targetver.h" />
+    <ClInclude Include="RubixCubeUtil.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="MathHelper.cpp" />
+    <ClCompile Include="RubixCubeTimer.cpp" />
     <ClCompile Include="Rubix%27s Cube.cpp" />
+    <ClCompile Include="RubixCubeUtil.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Rubix%27s Cube.rc" />
